@@ -9,7 +9,7 @@ package compiler;
  */
 public class variable 
 {
-    private int num;
+    private int myInt;
     private String myString;
 
     /**
@@ -18,7 +18,7 @@ public class variable
      */
     public variable(int value) 
     {
-        num = value;
+        myInt = value;
         myString = null;
     }//end int constructor
 
@@ -58,12 +58,12 @@ public class variable
      */
     public int getInt() 
     {
-        return num;
+        return myInt;
     }//end getInt
 
     public void clear()//resets our value
     {
-        num = 0;
+        myInt = 0;
         myString = "";
     }//end clear
 
@@ -74,6 +74,6 @@ public class variable
 
     public void setInt(int num) 
     {
-        this.num = num;
+        this.myInt = num;
     }//end setInt
 }//end Variable
