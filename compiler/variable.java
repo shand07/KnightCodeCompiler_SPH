@@ -47,7 +47,7 @@ public class variable
      * getter for string
      * @return our string
      */
-    public String getString() 
+    public String getString()//string getter
     {
         return myString;
     }//end getString
@@ -56,7 +56,7 @@ public class variable
      * getter for int
      * @return our int
      */
-    public int getInt() 
+    public int getInt()//int getter
     {
         return myInt;
     }//end getInt
@@ -67,12 +67,12 @@ public class variable
         myString = "";
     }//end clear
 
-    public void setString(String str) 
+    public void setString(String str)//string setter
     {
         myString = str;
     }//end setString
 
-    public void setInt(int num) 
+    public void setInt(int num)//int setter 
     {
         this.myInt = num;
     }//end setInt
