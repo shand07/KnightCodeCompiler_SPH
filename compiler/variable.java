@@ -37,7 +37,7 @@ public class variable
      */
     public boolean isString() 
     {
-        if(word != null)
+        if(myString != null)
             return true;
         else
             return false;
