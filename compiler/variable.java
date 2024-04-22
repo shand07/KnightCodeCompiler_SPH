@@ -10,7 +10,7 @@ package compiler;
 public class variable 
 {
     private int num;
-    private String word;
+    private String myString;
 
     /**
      * constructor for integer argument
@@ -19,7 +19,7 @@ public class variable
     public variable(int value) 
     {
         num = value;
-        word = null;
+        myString = null;
     }//end int constructor
 
     /**
@@ -28,7 +28,7 @@ public class variable
      */
     public variable(String str) 
     {
-        word = str;
+        myString = str;
     }//end String constructor
 
     /**
@@ -49,7 +49,7 @@ public class variable
      */
     public String getString() 
     {
-        return word;
+        return myString;
     }//end getString
 
     /**
@@ -64,12 +64,12 @@ public class variable
     public void clear()//resets our value
     {
         num = 0;
-        word = "";
+        myString = "";
     }//end clear
 
     public void setString(String str) 
     {
-        word = str;
+        myString = str;
     }//end setString
 
     public void setInt(int num) 
